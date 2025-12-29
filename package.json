@@ -1,0 +1,34 @@
+{
+  "name": "sign-in-with-chutes",
+  "version": "1.0.0",
+  "description": "One-stop SDK for adding 'Sign in with Chutes' OAuth authentication to any app",
+  "private": true,
+  "scripts": {
+    "setup": "npx tsx scripts/setup-chutes-app.ts",
+    "register": "npx tsx scripts/register-oauth-app.ts",
+    "verify": "npx tsx scripts/verify-setup.ts",
+    "example": "cd examples/nextjs-minimal && npm run dev",
+    "example:install": "cd examples/nextjs-minimal && npm install",
+    "example:build": "cd examples/nextjs-minimal && npm run build"
+  },
+  "keywords": [
+    "chutes",
+    "oauth",
+    "authentication",
+    "sign-in",
+    "nextjs",
+    "ai",
+    "serverless",
+    "pkce"
+  ],
+  "author": "Chutes.ai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chutesai/sign-in-with-chutes"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  }
+}
